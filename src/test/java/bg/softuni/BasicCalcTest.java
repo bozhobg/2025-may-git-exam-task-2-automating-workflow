@@ -12,6 +12,6 @@ public class BasicCalcTest {
 
   @Test
   public void testAddition() {
-    Assertions.assertEquals(A + B, calc.add(A, B));
+    Assertions.assertEquals(A - B, calc.add(A, B));
   }
 }
